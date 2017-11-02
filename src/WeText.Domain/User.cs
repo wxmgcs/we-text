@@ -111,5 +111,10 @@ namespace WeText.Domain
         {
 
         }
+
+        public void Test3()
+        {
+
+        }
     }
 }
