@@ -106,5 +106,10 @@ namespace WeText.Domain
         {
             this.myFriends.Add(evnt.FriendUserId);
         }
+
+        public void Test()
+        {
+
+        }
     }
 }
