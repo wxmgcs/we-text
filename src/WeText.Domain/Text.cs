@@ -52,6 +52,8 @@ namespace WeText.Domain
             this.Title = evnt.Title;
             this.Content = evnt.Content;
             this.DateCreated = evnt.Timestamp;
+           
+
         }
 
         [InlineEventHandler]
@@ -65,6 +67,12 @@ namespace WeText.Domain
             {
                 this.Content = evnt.Content;
             }
+        }
+
+        private void LocalTest()
+        {
+
+
         }
     }
 }

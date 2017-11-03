@@ -110,11 +110,7 @@ namespace WeText.Domain
         public void Test()
         {
 
-        }
+        }   
 
-        public void Test3()
-        {
-
-        }
     }
 }
