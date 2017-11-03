@@ -52,7 +52,7 @@ namespace WeText.Domain
             this.Title = evnt.Title;
             this.Content = evnt.Content;
             this.DateCreated = evnt.Timestamp;
-           
+
 
         }
 
@@ -65,6 +65,10 @@ namespace WeText.Domain
             }
             if (!string.IsNullOrEmpty(evnt.Content))
             {
+
+
+
+
                 this.Content = evnt.Content;
             }
         }
